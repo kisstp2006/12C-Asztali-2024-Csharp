@@ -149,32 +149,35 @@ namespace WonForms
             // 
             // button3
             // 
+            this.button3.BackColor = System.Drawing.Color.DimGray;
             this.button3.Location = new System.Drawing.Point(262, 99);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(240, 23);
             this.button3.TabIndex = 11;
             this.button3.Text = "Szám generálása";
-            this.button3.UseVisualStyleBackColor = true;
+            this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
+            this.button4.BackColor = System.Drawing.Color.DimGray;
             this.button4.Location = new System.Drawing.Point(262, 139);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(75, 23);
             this.button4.TabIndex = 12;
             this.button4.Text = "PÁROS";
-            this.button4.UseVisualStyleBackColor = true;
+            this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
+            this.button5.BackColor = System.Drawing.Color.DimGray;
             this.button5.Location = new System.Drawing.Point(412, 141);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(75, 23);
             this.button5.TabIndex = 13;
             this.button5.Text = "PÁRATLAN";
-            this.button5.UseVisualStyleBackColor = true;
+            this.button5.UseVisualStyleBackColor = false;
             this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // valasz
