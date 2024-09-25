@@ -9,16 +9,23 @@ namespace Mátrix
     class MatrixN
     {
         //Class viariables
-        int n1 = 0;
-        int n2 = 0;
+        string bemenet;
+        string[] listabemenet; // létrehozom a listát a számokhoz
+        int[] bemenetlista;
+
         public MatrixN()
         {
 
         }
-        public void MatrixMeret(int magassag, int hossusag)
+        public void Matrixbekeres()
         {
-             n1 = magassag;
-             n2 = hossusag;
+            Console.WriteLine("Adjon meg egy Tetszőleges méretű NxN Mátrixot");
+            int NxN = Convert.ToInt32(Console.ReadLine());  // Az első érték 0 
+            int[,] lista = new int[NxN, NxN];
+            for (int i=0; i< NxN; i++)
+            {
+
+            }
         }
     }
 
@@ -26,7 +33,10 @@ namespace Mátrix
     {
         static void Main(string[] args)
         {
+            //Példányosítjuk az osztályt (objektum létrehozása az osztálybol)
+            var MatrixObj = new MatrixN();
             Console.WriteLine("Mátrix");
+            MatrixObj.Matrixbekeres();
             Console.ReadKey();
             
         }
