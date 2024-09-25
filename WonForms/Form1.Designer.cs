@@ -36,6 +36,12 @@ namespace WonForms
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.random = new System.Windows.Forms.Label();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.valasz = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -99,7 +105,7 @@ namespace WonForms
             // 
             this.button2.Location = new System.Drawing.Point(12, 296);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(244, 23);
+            this.button2.Size = new System.Drawing.Size(605, 23);
             this.button2.TabIndex = 7;
             this.button2.Text = "Kilépés";
             this.button2.UseVisualStyleBackColor = true;
@@ -117,12 +123,84 @@ namespace WonForms
             this.label4.TabIndex = 8;
             this.label4.Text = "-";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label5.Location = new System.Drawing.Point(256, 9);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(246, 31);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Páros ez a szám?";
+            // 
+            // random
+            // 
+            this.random.AutoSize = true;
+            this.random.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.random.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.random.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.random.Location = new System.Drawing.Point(257, 54);
+            this.random.Name = "random";
+            this.random.Size = new System.Drawing.Size(175, 25);
+            this.random.TabIndex = 10;
+            this.random.Text = "-Megadott szám-";
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(262, 99);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(240, 23);
+            this.button3.TabIndex = 11;
+            this.button3.Text = "Szám generálása";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(262, 139);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 23);
+            this.button4.TabIndex = 12;
+            this.button4.Text = "PÁROS";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(412, 141);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 23);
+            this.button5.TabIndex = 13;
+            this.button5.Text = "PÁRATLAN";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // valasz
+            // 
+            this.valasz.AutoSize = true;
+            this.valasz.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.valasz.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.valasz.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.valasz.Location = new System.Drawing.Point(258, 170);
+            this.valasz.Name = "valasz";
+            this.valasz.Size = new System.Drawing.Size(63, 20);
+            this.valasz.TabIndex = 14;
+            this.valasz.Text = "Válasz";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(268, 331);
+            this.ClientSize = new System.Drawing.Size(629, 331);
+            this.Controls.Add(this.valasz);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.random);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -132,6 +210,7 @@ namespace WonForms
             this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -146,6 +225,12 @@ namespace WonForms
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label random;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Label valasz;
     }
 }
 
