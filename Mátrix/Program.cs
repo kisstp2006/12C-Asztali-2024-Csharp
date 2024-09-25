@@ -8,14 +8,17 @@ namespace Mátrix
 {
     class MatrixN
     {
+        //Class viariables
+        int n1 = 0;
+        int n2 = 0;
         public MatrixN()
         {
 
         }
         public void MatrixMeret(int magassag, int hossusag)
         {
-            var n1 = magassag;
-            var n2 = hossusag;
+             n1 = magassag;
+             n2 = hossusag;
         }
     }
 
