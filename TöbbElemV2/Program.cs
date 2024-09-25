@@ -29,6 +29,10 @@ namespace TöbbElemV2
 
             return IsParos;
         }
+        public void GetSzam(int szam)
+        {
+
+        }
     }
     class Program
     {
