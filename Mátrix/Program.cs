@@ -16,9 +16,9 @@ namespace Mátrix
     }
     class Matrix
     {
-        public Matrix(){
+        public void Matrix2(){
 
-            return 0;
+            
         }
     }
 }
