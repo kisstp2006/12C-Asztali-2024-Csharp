@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.34301.259
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teszt", "Teszt\Teszt.csproj", "{20CF798E-D689-482F-BDCA-06871DE87C54}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TobbElem", "Teszt\TobbElem.csproj", "{20CF798E-D689-482F-BDCA-06871DE87C54}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mátrix", "Mátrix\Mátrix.csproj", "{6B064AE6-0B91-4CC0-B7AC-86D50C08DA35}"
 EndProject
