@@ -24,6 +24,15 @@ namespace Mátrix
             int[,] lista = new int[NxN, NxN];
             for (int i=0; i< NxN; i++)
             {
+                bemenet = Console.ReadLine();
+                listabemenet = bemenet.Split(' ');
+                bemenetlista = new int[NxN];
+                for (int k=0; k < NxN; k++)
+                {
+                    bemenetlista[k] = int.Parse(listabemenet[k]);
+                    lista[i,k] = bemenetlista[k];
+                }
+
 
             }
         }
