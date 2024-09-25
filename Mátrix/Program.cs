@@ -17,8 +17,10 @@ namespace Mátrix
         {
 
         }
+
         public void Matrixbekeres()
         {
+            //Mátrix bekérése , nem működik
             Console.WriteLine("Adjon meg egy Tetszőleges méretű NxN Mátrixot");
             int NxN = Convert.ToInt32(Console.ReadLine());  // Az első érték 0 
             int[,] lista = new int[NxN, NxN];
@@ -36,6 +38,13 @@ namespace Mátrix
 
             }
         }
+        public void Mátrixkiírása()
+        {
+            //példa
+            Console.WriteLine("4 3 7");
+            Console.WriteLine("3 6 7");
+            Console.WriteLine("4 6 1");
+        }
     }
 
     class Program
@@ -45,7 +54,7 @@ namespace Mátrix
             //Példányosítjuk az osztályt (objektum létrehozása az osztálybol)
             var MatrixObj = new MatrixN();
             Console.WriteLine("Mátrix");
-            MatrixObj.Matrixbekeres();
+            MatrixObj.Mátrixkiírása();
             Console.ReadKey();
             
         }
