@@ -17,6 +17,7 @@ namespace Mátrix
         {
 
         }
+
         public void Matrixbekeres()
         {
             Console.WriteLine("Adjon meg egy Tetszőleges méretű NxN Mátrixot");

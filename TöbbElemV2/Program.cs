@@ -8,9 +8,15 @@ namespace TöbbElemV2
 {
     class TobbElemOsztály
     {
+        private int szam;
+        private bool IsParos;
 
         public TobbElemOsztály()
         {
+        }
+        public void GetSzam(int szam)
+        {
+
         }
     }
     class Program
