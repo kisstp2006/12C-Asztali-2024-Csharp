@@ -16,5 +16,26 @@ namespace WonForms
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+                var bevitel = Convert.ToInt32(textBox1.Text);
+
+
+            if (bevitel%2==0)
+            {
+                label4.Text = "paros";
+            }
+            else
+            {
+                label4.Text = "paratlan";
+            }
+        }
     }
 }
