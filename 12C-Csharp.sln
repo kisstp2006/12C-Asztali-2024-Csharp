@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TöbbElemV2", "TöbbElemV2\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WonForms", "WonForms\WonForms.csproj", "{8823D5D0-A000-41D1-AFCA-1384941DD241}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kör hasáb", "Kör hasáb\Kör hasáb.csproj", "{10345960-2F50-4B18-A9AD-89400FC69D42}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8823D5D0-A000-41D1-AFCA-1384941DD241}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8823D5D0-A000-41D1-AFCA-1384941DD241}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8823D5D0-A000-41D1-AFCA-1384941DD241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10345960-2F50-4B18-A9AD-89400FC69D42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10345960-2F50-4B18-A9AD-89400FC69D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10345960-2F50-4B18-A9AD-89400FC69D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10345960-2F50-4B18-A9AD-89400FC69D42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
