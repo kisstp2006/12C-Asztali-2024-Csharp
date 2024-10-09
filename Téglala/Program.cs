@@ -15,7 +15,7 @@ namespace Téglalap
             teglaszam.ReadBoldal(2501);
             teglaszam.TeruletSzam();
             teglaszam.KeruletSzam();
-            Console.WriteLine($"A kerület az : {teglaszam.GetKerulet()} cm A terület: {teglaszam.GetTerulet()} cm2");
+            Console.WriteLine($"A kerület az : {teglaszam.GetKerulet()} cm A terület: {teglaszam.GetTerulet()} cm2, Az a oldal : {teglaszam.GetAoldal()} b oldal : {teglaszam.GetBoldal()}");
             Console.ReadKey();
         }
     }

@@ -31,6 +31,14 @@ namespace Téglalap
         {
             this.Boldal = boldal;
         }
+        public double  GetAoldal()
+        {
+            return this.Aoldal;
+        }
+        public double GetBoldal()
+        {
+            return this.Boldal;
+        }
         //Terület kiszámítása
         public void TeruletSzam()
         {
