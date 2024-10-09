@@ -34,11 +34,30 @@ namespace Kör_hasáb
         public void SetTerulet()
         {
             double eredmeny1, eredmeny2 = 0.00;
-            eredmeny1 = 2 * this.sugar * this.sugar * Math.PI;
+            eredmeny1 = this.sugar * this.sugar * Math.PI;
 
             eredmeny2 = Math.Pow(this.sugar, 2) * Math.PI;                                                                                                                                                                                                     //na
-
+            if (eredmeny1 == eredmeny2)
+            {
+                this.terulet = eredmeny2;
+            }
+            else
+            {
+                Console.Write($"eredmeny 1 {eredmeny1} nem egyenlő eredmény 2 vel {eredmeny2}");
+            }
         }
-
+        public double GetKerulet()
+        {
+            return this.kerulet;
+        }
+        public double GetTerulet()
+        {
+            return this.terulet;
+        }
+        public double GetSugar()
+        {
+            return this.sugar;
+        }
+        
     }
 }
