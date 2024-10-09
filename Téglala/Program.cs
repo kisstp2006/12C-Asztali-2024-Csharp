@@ -11,11 +11,11 @@ namespace Téglalap
         static void Main(string[] args)
         {
             Teglalapszamitasok teglaszam = new Teglalapszamitasok();
-            teglaszam.ReadAoldal(15);
-            teglaszam.ReadBoldal(25);
+            teglaszam.ReadAoldal(150);
+            teglaszam.ReadBoldal(2501);
             teglaszam.TeruletSzam();
             teglaszam.KeruletSzam();
-            Console.WriteLine($"A kerület az : {teglaszam.GetKerulet()} A terület: {teglaszam.GetTerulet()}");
+            Console.WriteLine($"A kerület az : {teglaszam.GetKerulet()} cm A terület: {teglaszam.GetTerulet()} cm2");
             Console.ReadKey();
         }
     }
