@@ -18,7 +18,7 @@ namespace Kör_hasáb
         {
 
         }
-        public Kor(double r) //a konstruktor nem adhat vissza értéket így nem is kell kifejezni
+        public Kor(double r) //a konstruktor (létrehoz) nem adhat vissza értéket így nem is kell kifejezni Konstruktor A kontruktoz az amely az osztályt egy objektummá alakítja
         {
             this.sugar = r;
         }
