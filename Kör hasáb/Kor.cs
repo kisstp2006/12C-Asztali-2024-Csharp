@@ -10,7 +10,7 @@ namespace Kör_hasáb
     class Kor
     {
         //Osztály adatok
-        private double sugar,
+        protected double sugar,
             kerulet,
             terulet;
         //Konstruktorok szerepe : az osztályból példányt hoz lére , önmagában az osztállyal nem tudunk dolgozni , a kontruktorok végzik el a példányosítást, több konstruktor is lehet , a program tudja hogy melyik konstruktort kell használni

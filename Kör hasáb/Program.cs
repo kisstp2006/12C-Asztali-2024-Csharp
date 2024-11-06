@@ -39,6 +39,12 @@ namespace Kör_hasáb
             Console.WriteLine($"A kör adatai: \n sugár= "+ k21.GetSugar()+"\n Terület: "+k21.GetTerulet()+"\n Terule: "+k21.GetKerulet());
             Console.ReadKey();
             #endregion
+
+            #region Térfogat
+            Henger henger = new Henger(15, 30);
+            Console.WriteLine("Térfogat: "+henger.GetTerfogat()+"\n Sugara: "+henger.GetSugar()+"\n Magassag"+henger.GetMagassag());
+            Console.ReadKey();
+            #endregion
         }
     }
 }
