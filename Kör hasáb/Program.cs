@@ -33,6 +33,12 @@ namespace Kör_hasáb
             Console.WriteLine("A terüéete a körnek: " + k2.GetTerulet());
             Console.ReadKey();
             #endregion 2. objektum vége
+
+            #region Kör 2 használata
+            Kor2 k21 = new Kor2(24.5);
+            Console.WriteLine($"A kör adatai: \n sugár= "+ k21.GetSugar()+"\n Terület: "+k21.GetTerulet()+"\n Terule: "+k21.GetKerulet());
+            Console.ReadKey();
+            #endregion
         }
     }
 }

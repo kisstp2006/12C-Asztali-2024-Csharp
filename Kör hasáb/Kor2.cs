@@ -41,5 +41,8 @@ namespace Kör_hasáb
             CalcKerulet();
             this.terulet = Calcterulet(this.sugar);
         }
+        public double GetKerulet(){return this.kerulet;}
+        public double GetTerulet(){return this.terulet;}
+        public double GetSugar(){return this.sugar;}
     }
 }
