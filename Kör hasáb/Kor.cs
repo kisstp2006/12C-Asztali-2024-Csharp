@@ -14,6 +14,10 @@ namespace Kör_hasáb
             kerulet,
             terulet;
         //Konstruktorok szerepe : az osztályból példányt hoz lére , önmagában az osztállyal nem tudunk dolgozni , a kontruktorok végzik el a példányosítást, több konstruktor is lehet , a program tudja hogy melyik konstruktort kell használni
+        /*
+        Egységbe zárás: Az objektum / osztálynak a változóihoz csak ellenörzötten férek hozzá
+        Paraméter lista: Formális paraméter: Deklarációban szerepel. Aktuális paraméter: Mikor a paraméter értéket kap. 
+         */
         public Kor() 
         {
 
