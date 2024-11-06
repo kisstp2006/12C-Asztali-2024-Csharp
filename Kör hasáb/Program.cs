@@ -24,25 +24,25 @@ namespace Kör_hasáb
             #endregion 1. objektum vége
 
             #region 2. objektum
-            Console.Clear();
+            //Console.Clear();
             Kor k2 = new Kor(28.7);//Azt a konstruktort hívja meg amelynek van paramétere
             k2.SetKerulet();
             k2.SetTerulet();
-            Console.WriteLine("A sugara a körnek: " + k2.GetSugar());
-            Console.WriteLine("A kerüéete a körnek: " + k2.GetKerulet());
-            Console.WriteLine("A terüéete a körnek: " + k2.GetTerulet());
+            Console.WriteLine("\n A sugara a körnek: " + k2.GetSugar());
+            Console.WriteLine("A kerülete a körnek: " + k2.GetKerulet());
+            Console.WriteLine("A területe a körnek: " + k2.GetTerulet());
             Console.ReadKey();
             #endregion 2. objektum vége
 
             #region Kör 2 használata
             Kor2 k21 = new Kor2(24.5);
-            Console.WriteLine($"A kör adatai: \n sugár= "+ k21.GetSugar()+"\n Terület: "+k21.GetTerulet()+"\n Terule: "+k21.GetKerulet());
+            Console.WriteLine($"\n A kör adatai: \n sugár= " + k21.GetSugar()+"\n Terület: "+k21.GetTerulet()+"\n Terule: "+k21.GetKerulet());
             Console.ReadKey();
             #endregion
 
             #region Térfogat
             Henger henger = new Henger(15, 30);
-            Console.WriteLine("Térfogat: "+henger.GetTerfogat()+"\n Sugara: "+henger.GetSugar()+"\n Magassag"+henger.GetMagassag());
+            Console.WriteLine("\n A henger adatai: "+"\n Térfogat: "+henger.GetTerfogat()+"\n Sugara: "+henger.GetSugar()+"\n Magassag: "+henger.GetMagassag()+"\n Terület: "+henger.GetTerulet());
             Console.ReadKey();
             #endregion
         }
