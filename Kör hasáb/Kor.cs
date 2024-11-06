@@ -13,8 +13,8 @@ namespace Kör_hasáb
         private double sugar,
             kerulet,
             terulet;
-        //Konstruktorok
-        public Kor()
+        //Konstruktorok szerepe : az osztályból példányt hoz lére , önmagában az osztállyal nem tudunk dolgozni , a kontruktorok végzik el a példányosítást, több konstruktor is lehet , a program tudja hogy melyik konstruktort kell használni
+        public Kor() 
         {
 
         }
