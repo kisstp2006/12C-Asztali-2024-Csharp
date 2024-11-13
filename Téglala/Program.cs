@@ -20,7 +20,7 @@ namespace Téglalap
 
 
             Console.WriteLine("\n A oldal: 5cm \nBoldal=15cm \nColdal(Magassag)=15cm");
-            Téglatest teglatest = new Téglatest();
+            Hasab teglatest = new Hasab();
             teglatest.ReadAoldal(5);
             teglatest.ReadBoldal(15);
             teglatest.ReadColdal(15);
@@ -31,7 +31,7 @@ namespace Téglalap
             Console.ReadKey();
 
 
-            Téglatest teglatest2 = new Téglatest();
+            Hasab teglatest2 = new Hasab();
             Console.WriteLine("Adja meg az 'a' oldalt: ");
             teglatest2.ReadAoldal( int.Parse(Console.ReadLine()));
             Console.WriteLine("Adja meg az 'b' oldalt: ");

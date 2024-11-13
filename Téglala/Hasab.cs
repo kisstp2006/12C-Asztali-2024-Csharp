@@ -6,17 +6,17 @@ using System.Threading.Tasks;
 
 namespace Téglalap
 {
-    class Téglatest : Teglalapszamitasok
+    class Hasab : Teglalapszamitasok
     {
         private double
             Coldal,
             terfogat,
             felszin;
-        public Téglatest()
+        public Hasab()
         {
 
         }
-        public Téglatest(double a, double b,double m)
+        public Hasab(double a, double b,double m)
         {
             this.Coldal = m;
             this.Aoldal = a;
