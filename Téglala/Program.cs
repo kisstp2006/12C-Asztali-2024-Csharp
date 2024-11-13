@@ -43,6 +43,9 @@ namespace Téglalap
             Console.WriteLine("A téglatest felszine:" + hasab.Returnfelszin() + "cm");
             Console.WriteLine("A téglatest térfogata:" + hasab.ReturnTerfogat() + "cm2");
             Console.ReadKey();
+
+
+   
         }
     }
 }

@@ -21,7 +21,8 @@ namespace Téglalap
             this.Coldal = m;
             this.Aoldal = a;
             this.Boldal = b;
-
+            TerfogatSzamit();
+            FelszinSzamit();
         }
         public void ReadColdal(double m)
         {
