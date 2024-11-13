@@ -20,28 +20,28 @@ namespace Téglalap
 
 
             Console.WriteLine("\n A oldal: 5cm \nBoldal=15cm \nColdal(Magassag)=15cm");
-            Hasab teglatest = new Hasab();
-            teglatest.ReadAoldal(5);
-            teglatest.ReadBoldal(15);
-            teglatest.ReadColdal(15);
-            teglatest.TerfogatSzamit();
-            teglatest.FelszinSzamit();
-            Console.WriteLine("\n A téglatest felszine:" + teglatest.Returnfelszin()+"cm");
-            Console.WriteLine("\n A téglatest térfogata:" + teglatest.ReturnTerfogat()+"cm2");
+            Hasab hasab1 = new Hasab();
+            hasab1.ReadAoldal(5);
+            hasab1.ReadBoldal(15);
+            hasab1.ReadColdal(15);
+            hasab1.TerfogatSzamit();
+            hasab1.FelszinSzamit();
+            Console.WriteLine("\n A téglatest felszine:" + hasab1.Returnfelszin()+"cm");
+            Console.WriteLine("\n A téglatest térfogata:" + hasab1.ReturnTerfogat()+"cm2");
             Console.ReadKey();
 
 
-            Hasab teglatest2 = new Hasab();
+            Hasab hasab = new Hasab();
             Console.WriteLine("Adja meg az 'a' oldalt: ");
-            teglatest2.ReadAoldal( int.Parse(Console.ReadLine()));
+            hasab.ReadAoldal( int.Parse(Console.ReadLine()));
             Console.WriteLine("Adja meg az 'b' oldalt: ");
-            teglatest2.ReadBoldal(int.Parse(Console.ReadLine()));
+            hasab.ReadBoldal(int.Parse(Console.ReadLine()));
             Console.WriteLine("Adja meg az 'c' oldalt: ");
-            teglatest2.ReadColdal(double.Parse(Console.ReadLine()));
-            teglatest2.TerfogatSzamit();
-            teglatest2.FelszinSzamit();
-            Console.WriteLine("A téglatest felszine:" + teglatest2.Returnfelszin() + "cm");
-            Console.WriteLine("A téglatest térfogata:" + teglatest2.ReturnTerfogat() + "cm2");
+            hasab.ReadColdal(double.Parse(Console.ReadLine()));
+            hasab.TerfogatSzamit();
+            hasab.FelszinSzamit();
+            Console.WriteLine("A téglatest felszine:" + hasab.Returnfelszin() + "cm");
+            Console.WriteLine("A téglatest térfogata:" + hasab.ReturnTerfogat() + "cm2");
             Console.ReadKey();
         }
     }
