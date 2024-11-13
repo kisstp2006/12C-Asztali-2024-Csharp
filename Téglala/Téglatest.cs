@@ -16,9 +16,11 @@ namespace Téglalap
         {
 
         }
-        public Téglatest(double m)
+        public Téglatest(double a, double b,double m)
         {
             this.Coldal = m;
+            this.Aoldal = a;
+            this.Boldal = b;
 
         }
         public void ReadColdal(double m)
