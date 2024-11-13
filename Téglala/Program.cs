@@ -19,15 +19,15 @@ namespace Téglalap
             Console.ReadKey();
 
 
-            Console.WriteLine("A oldal: 5cm \nBoldal=15cm \nColdal(Magassag)=15cm");
+            Console.WriteLine("\n A oldal: 5cm \nBoldal=15cm \nColdal(Magassag)=15cm");
             Téglatest teglatest = new Téglatest();
             teglatest.ReadAoldal(5);
             teglatest.ReadBoldal(15);
             teglatest.ReadColdal(15);
             teglatest.TerfogatSzamit();
             teglatest.FelszinSzamit();
-            Console.WriteLine("A téglalap felszine:"+ teglatest.Returnfelszin()+"cm");
-            Console.WriteLine("A téglalap térfogata:"+ teglatest.ReturnTerfogat()+"cm2");
+            Console.WriteLine("\n A téglatest felszine:" + teglatest.Returnfelszin()+"cm");
+            Console.WriteLine("\n A téglatest térfogata:" + teglatest.ReturnTerfogat()+"cm2");
             Console.ReadKey();
 
 
@@ -40,8 +40,8 @@ namespace Téglalap
             teglatest2.ReadColdal(double.Parse(Console.ReadLine()));
             teglatest2.TerfogatSzamit();
             teglatest2.FelszinSzamit();
-            Console.WriteLine("A téglalap felszine:" + teglatest2.Returnfelszin() + "cm");
-            Console.WriteLine("A téglalap térfogata:" + teglatest2.ReturnTerfogat() + "cm2");
+            Console.WriteLine("A téglatest felszine:" + teglatest2.Returnfelszin() + "cm");
+            Console.WriteLine("A téglatest térfogata:" + teglatest2.ReturnTerfogat() + "cm2");
             Console.ReadKey();
         }
     }
