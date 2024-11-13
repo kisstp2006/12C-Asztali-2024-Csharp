@@ -38,6 +38,8 @@ namespace Téglalap
             teglatest2.ReadBoldal(int.Parse(Console.ReadLine()));
             Console.WriteLine("Adja meg az 'c' oldalt: ");
             teglatest2.ReadColdal(double.Parse(Console.ReadLine()));
+            teglatest2.TerfogatSzamit();
+            teglatest2.FelszinSzamit();
             Console.WriteLine("A téglalap felszine:" + teglatest2.Returnfelszin() + "cm");
             Console.WriteLine("A téglalap térfogata:" + teglatest2.ReturnTerfogat() + "cm2");
             Console.ReadKey();
