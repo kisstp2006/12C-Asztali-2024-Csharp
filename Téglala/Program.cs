@@ -31,14 +31,16 @@ namespace Téglalap
             Console.ReadKey();
 
 
+            Téglatest teglatest2 = new Téglatest();
             Console.WriteLine("Adja meg az 'a' oldalt: ");
-            teglatest.ReadAoldal( int.Parse(Console.ReadLine()));
+            teglatest2.ReadAoldal( int.Parse(Console.ReadLine()));
             Console.WriteLine("Adja meg az 'b' oldalt: ");
-            teglatest.ReadBoldal(int.Parse(Console.ReadLine()));
+            teglatest2.ReadBoldal(int.Parse(Console.ReadLine()));
             Console.WriteLine("Adja meg az 'c' oldalt: ");
-            teglatest.ReadColdal(double.Parse(Console.ReadLine()));
-            Console.WriteLine("A téglalap felszine:" + teglatest.Returnfelszin() + "cm");
-            Console.WriteLine("A téglalap térfogata:" + teglatest.ReturnTerfogat() + "cm2");
+            teglatest2.ReadColdal(double.Parse(Console.ReadLine()));
+            Console.WriteLine("A téglalap felszine:" + teglatest2.Returnfelszin() + "cm");
+            Console.WriteLine("A téglalap térfogata:" + teglatest2.ReturnTerfogat() + "cm2");
+            Console.ReadKey();
         }
     }
 }
