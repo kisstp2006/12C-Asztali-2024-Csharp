@@ -8,7 +8,7 @@ namespace Téglalap
 {
     class Teglalapszamitasok
     {
-        private double Aoldal,
+        protected double Aoldal,
             Boldal,
             Terulet,
             Kerulet;

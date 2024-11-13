@@ -46,6 +46,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Teglalapszamitasok.cs" />
+    <Compile Include="Téglatest.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

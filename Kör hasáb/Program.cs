@@ -12,6 +12,7 @@ namespace Kör_hasáb
         {
             #region 1.objektum
             // Kör osztály felhasználása
+           
             //1. objektum
             Kor k1 = new Kor(); //Azt a konstruktort hívja meg amelynek nincs paramétere
             k1.ReadSugar(15);
