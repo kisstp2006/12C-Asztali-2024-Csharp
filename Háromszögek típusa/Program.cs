@@ -8,9 +8,16 @@ namespace Háromszögek_típusa
 {
     class Program
     {
+        public int  a, b, c;
         static void Main(string[] args)
         {
-            HTipus haromszogtipus = new HTipus();
+            Console.WriteLine("Kérem az A oldalt:");
+            a = int.Parse(Console.ReadLine());
+            HTipus haromszogtipus = new HTipus(1,2,5);
+            if (haromszogtipus.EzHaromszog())
+            {
+
+            }
         }
     }
 }

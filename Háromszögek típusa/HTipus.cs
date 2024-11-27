@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Háromszögek_típusa
+﻿namespace Háromszögek_típusa
 {
     class HTipus
     {
@@ -22,33 +16,39 @@ namespace Háromszögek_típusa
 
         }
         public bool EzHaromszog() {
-            var igaze = false;
-            if (this.a+ this.b > this.c)
-            {
-                igaze = true;
-            }
-            else if (this.a + this.c > this.b)
-            {
-                igaze = true;
-            }
-            else if (this.b + this.c > this.a)
-            {
-                igaze = true;
-            }
-            else
-            {
-                igaze = false;
-            }
-            return igaze;
+            return ((this.b + this.c > this.a) && (this.a + this.c > this.b) && (this.a + this.b > this.c));
         }
         public bool Derekszogue()
         {
-            if (this.a* this.a + this.b * this.b = this.c * this.c)
+            var igaze = false;
+            if (this.a * this.a + this.b * this.b == this.c * this.c)
             {
-
+                igaze = true;
             }
 
-            return false;
+            return igaze;
+        }
+        public bool Egyenloszarue()
+        {
+            var igaze = false;
+            if (this.a == this.b)
+            {
+                igaze = true;
+            }
+            if (this.a == this.c)
+            {
+                igaze = true;
+            }
+            if (this.b == this.c)
+            {
+                igaze = true;
+            }
+            return igaze;
+        }
+        public bool Egyenlooldalu()
+        {
+           
+            return (this.a==this.b) && (this.c==this.b) ;
         }
     }
 }
