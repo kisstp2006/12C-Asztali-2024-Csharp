@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Mátrix
 {
@@ -24,7 +21,7 @@ namespace Mátrix
 
             for (int i = 0; i < méret; ++i)
             {
-                bool complete = false; 
+                bool complete = false;
                 while (!complete)// figyeljük hogy ki van e töltve a mátrix
                 {
                     Console.WriteLine(string.Format("[{0}] - Írjon be {1} számot(SPACE-el elkülönítve):", i, méret));

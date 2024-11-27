@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Téglalap
+﻿namespace Téglalap
 {
     class Teglalapszamitasok
     {
@@ -17,7 +11,7 @@ namespace Téglalap
         {
 
         }
-        public  Teglalapszamitasok(double a, double b)
+        public Teglalapszamitasok(double a, double b)
         {
             this.Aoldal = a;
             this.Boldal = b;
@@ -31,7 +25,7 @@ namespace Téglalap
         {
             this.Boldal = boldal;
         }
-        public double  GetAoldal()
+        public double GetAoldal()
         {
             return this.Aoldal;
         }
@@ -46,7 +40,7 @@ namespace Téglalap
         }
         public void KeruletSzam()
         {
-            this.Kerulet = (this.Aoldal + this.Boldal)*2;
+            this.Kerulet = (this.Aoldal + this.Boldal) * 2;
         }
         public double GetKerulet() { return Kerulet; }
         public double GetTerulet() { return Terulet; }

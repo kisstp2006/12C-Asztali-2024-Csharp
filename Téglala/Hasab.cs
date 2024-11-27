@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Téglalap
+﻿namespace Téglalap
 {
     class Hasab : Teglalapszamitasok
     {
@@ -16,7 +10,7 @@ namespace Téglalap
         {
 
         }
-        public Hasab(double a, double b,double m)
+        public Hasab(double a, double b, double m)
         {
             this.Coldal = m;
             this.Aoldal = a;
@@ -46,7 +40,7 @@ namespace Téglalap
         }
         public void FelszinSzamit()
         {
-            this.felszin = 2 * (this.Aoldal * this.Boldal + this.Aoldal *this.Coldal+ this.Boldal *this.Coldal);
+            this.felszin = 2 * (this.Aoldal * this.Boldal + this.Aoldal * this.Coldal + this.Boldal * this.Coldal);
         }
 
     }

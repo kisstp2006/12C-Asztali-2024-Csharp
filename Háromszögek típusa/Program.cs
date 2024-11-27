@@ -27,6 +27,7 @@ namespace Háromszögek_típusa
 
             HTipus userTriangle = new HTipus(userA, userB, userC);
             Írjakiaharomszogadatait(userTriangle);
+            Console.ReadKey();
         }
 
         static void Írjakiaharomszogadatait(HTipus haromszog)

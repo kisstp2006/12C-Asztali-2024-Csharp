@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Kör_hasáb
 {
@@ -12,15 +8,15 @@ namespace Kör_hasáb
         {
             #region 1.objektum
             // Kör osztály felhasználása
-           
+
             //1. objektum
             Kor k1 = new Kor(); //Azt a konstruktort hívja meg amelynek nincs paramétere
             k1.ReadSugar(15);
             k1.SetKerulet();
             k1.SetTerulet();
-            Console.WriteLine("A sugara a körnek: "+k1.GetSugar());
-            Console.WriteLine("A kerüéete a körnek: "+k1.GetKerulet());
-            Console.WriteLine("A terüéete a körnek: "+ k1.GetTerulet());
+            Console.WriteLine("A sugara a körnek: " + k1.GetSugar());
+            Console.WriteLine("A kerüéete a körnek: " + k1.GetKerulet());
+            Console.WriteLine("A terüéete a körnek: " + k1.GetTerulet());
             Console.ReadKey();
             #endregion 1. objektum vége
 
@@ -37,13 +33,13 @@ namespace Kör_hasáb
 
             #region Kör 2 használata
             Kor2 k21 = new Kor2(24.5);
-            Console.WriteLine($"\n A kör adatai: \n sugár= " + k21.GetSugar()+"\n Terület: "+k21.GetTerulet()+"\n Terule: "+k21.GetKerulet());
+            Console.WriteLine($"\n A kör adatai: \n sugár= " + k21.GetSugar() + "\n Terület: " + k21.GetTerulet() + "\n Terule: " + k21.GetKerulet());
             Console.ReadKey();
             #endregion
 
             #region Térfogat
             Henger henger = new Henger(15, 30);
-            Console.WriteLine("\n A henger adatai: "+"\n Térfogat: "+henger.GetTerfogat()+"\n Sugara: "+henger.GetSugar()+"\n Magassag: "+henger.GetMagassag()+"\n Terület: "+henger.GetTerulet());
+            Console.WriteLine("\n A henger adatai: " + "\n Térfogat: " + henger.GetTerfogat() + "\n Sugara: " + henger.GetSugar() + "\n Magassag: " + henger.GetMagassag() + "\n Terület: " + henger.GetTerulet());
             Console.ReadKey();
             #endregion
         }

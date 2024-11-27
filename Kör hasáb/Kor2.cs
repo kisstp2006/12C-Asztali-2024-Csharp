@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Kör_hasáb
 {
@@ -13,7 +9,7 @@ namespace Kör_hasáb
 
         public Kor2()
         {
-            
+
         }
         public Kor2(double r)
         {
@@ -29,7 +25,7 @@ namespace Kör_hasáb
         }
         private void CalcKerulet()
         {
-           this.kerulet= 2* this.sugar * Math.PI;
+            this.kerulet = 2 * this.sugar * Math.PI;
         }
         private double Calcterulet(double r)
         {
@@ -41,8 +37,8 @@ namespace Kör_hasáb
             CalcKerulet();
             this.terulet = Calcterulet(this.sugar);
         }
-        public double GetKerulet(){return this.kerulet;}
-        public double GetTerulet(){return this.terulet;}
-        public double GetSugar(){return this.sugar;}
+        public double GetKerulet() { return this.kerulet; }
+        public double GetTerulet() { return this.terulet; }
+        public double GetSugar() { return this.sugar; }
     }
 }

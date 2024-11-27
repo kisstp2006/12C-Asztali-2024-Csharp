@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Téglalap
 {
@@ -26,14 +22,14 @@ namespace Téglalap
             hasab1.ReadColdal(15);
             hasab1.TerfogatSzamit();
             hasab1.FelszinSzamit();
-            Console.WriteLine("\n A téglatest felszine:" + hasab1.Returnfelszin()+"cm");
-            Console.WriteLine("\n A téglatest térfogata:" + hasab1.ReturnTerfogat()+"cm2");
+            Console.WriteLine("\n A téglatest felszine:" + hasab1.Returnfelszin() + "cm");
+            Console.WriteLine("\n A téglatest térfogata:" + hasab1.ReturnTerfogat() + "cm2");
             Console.ReadKey();
 
 
             Hasab hasab = new Hasab();
             Console.WriteLine("Adja meg az 'a' oldalt: ");
-            hasab.ReadAoldal( int.Parse(Console.ReadLine()));
+            hasab.ReadAoldal(int.Parse(Console.ReadLine()));
             Console.WriteLine("Adja meg az 'b' oldalt: ");
             hasab.ReadBoldal(int.Parse(Console.ReadLine()));
             Console.WriteLine("Adja meg az 'c' oldalt: ");
@@ -45,7 +41,7 @@ namespace Téglalap
             Console.ReadKey();
 
 
-   
+
         }
     }
 }

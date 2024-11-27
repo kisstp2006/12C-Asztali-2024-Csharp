@@ -8,14 +8,15 @@
 
 
         }
-        public HTipus(int a, int b, int c )
+        public HTipus(int a, int b, int c)
         {
             this.a = a;
             this.b = b;
             this.c = c;
 
         }
-        public bool EzHaromszog() {
+        public bool EzHaromszog()
+        {
             return ((this.b + this.c > this.a) && (this.a + this.c > this.b) && (this.a + this.b > this.c));
         }
         public bool Derekszogue()
@@ -47,8 +48,8 @@
         }
         public bool Egyenlooldalu()
         {
-           
-            return (this.a==this.b) && (this.c==this.b) ;
+
+            return (this.a == this.b) && (this.c == this.b);
         }
     }
 }

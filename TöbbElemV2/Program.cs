@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TöbbElemV2
 {
@@ -43,7 +39,7 @@ namespace TöbbElemV2
             int paratlan = 0;
             TobbElemOsztály a = new TobbElemOsztály();
 
-            while (paros+paratlan<100)
+            while (paros + paratlan < 100)
             {
                 Console.WriteLine("Adjon meg egy számot");
                 var szam = Convert.ToInt32(Console.ReadLine());
@@ -61,7 +57,7 @@ namespace TöbbElemV2
                 }
 
             }
-            Console.WriteLine($"A szám típusa "+ valasz);
+            Console.WriteLine($"A szám típusa " + valasz);
             Console.ReadKey();
         }
     }

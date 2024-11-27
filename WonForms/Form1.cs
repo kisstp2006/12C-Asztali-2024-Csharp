@@ -1,11 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WonForms
@@ -24,21 +18,22 @@ namespace WonForms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            try { 
+            try
+            {
                 var bevitel = Convert.ToInt32(textBox1.Text);
-                if (bevitel%2==0)
+                if (bevitel % 2 == 0)
                 {
                     label4.Text = "paros";
                 }
                 else
                 {
                     label4.Text = "paratlan";
-               
+
                 }
             }
             catch (Exception i)
             {
-                MessageBox.Show( i.Message, "Hiba történt");
+                MessageBox.Show(i.Message, "Hiba történt");
                 label4.Text = "Hiba";
             }
 
@@ -47,7 +42,7 @@ namespace WonForms
         private void button3_Click(object sender, EventArgs e)
         {
             Random rand = new Random();
-            random.Text=Convert.ToString(rand.Next(600));
+            random.Text = Convert.ToString(rand.Next(600));
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -60,7 +55,7 @@ namespace WonForms
         {
             //páros
             var a = Convert.ToInt32(random.Text);
-            if (a%2==0)
+            if (a % 2 == 0)
             {
                 valasz.Text = "Helyes";
                 valasz.ForeColor = Color.Green;

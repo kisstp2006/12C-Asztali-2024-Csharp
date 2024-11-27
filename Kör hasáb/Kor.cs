@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Kör_hasáb
 {
@@ -18,7 +14,7 @@ namespace Kör_hasáb
         Egységbe zárás: Az objektum / osztálynak a változóihoz csak ellenörzötten férek hozzá
         Paraméter lista: Formális paraméter: Deklarációban szerepel. Aktuális paraméter: Mikor a paraméter értéket kap. 
          */
-        public Kor() 
+        public Kor()
         {
 
         }
@@ -62,6 +58,6 @@ namespace Kör_hasáb
         {
             return this.sugar;
         }
-        
+
     }
 }
