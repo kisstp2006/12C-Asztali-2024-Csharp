@@ -13,6 +13,7 @@ namespace Kivetel
             kivetelek kivet = new kivetelek();
             kivet.Nincskivetel();
             kivet.Altalanoshibakezeles();
+            kivet.Altalanoshibakezeles2();
         }
     }
 }
