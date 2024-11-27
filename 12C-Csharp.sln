@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kör hasáb", "Kör hasáb\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Téglalap", "Téglala\Téglalap.csproj", "{F1142B0F-AFF0-47F0-8678-0C80FF70F0D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Háromszögek típusa", "Háromszögek típusa\Háromszögek típusa.csproj", "{92A2DB91-DEB4-4561-9B0E-88029655768B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{F1142B0F-AFF0-47F0-8678-0C80FF70F0D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1142B0F-AFF0-47F0-8678-0C80FF70F0D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1142B0F-AFF0-47F0-8678-0C80FF70F0D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92A2DB91-DEB4-4561-9B0E-88029655768B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92A2DB91-DEB4-4561-9B0E-88029655768B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92A2DB91-DEB4-4561-9B0E-88029655768B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92A2DB91-DEB4-4561-9B0E-88029655768B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
