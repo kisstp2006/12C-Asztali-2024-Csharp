@@ -14,7 +14,7 @@ namespace Háromszögek_típusa
 
             HTipus randomTriangle = new HTipus(a, b, c);
             Console.WriteLine($"Random háromszög oldalak: a={a}, b={b}, c={c}");
-            PrintTriangleProperties(randomTriangle);
+            Írjakiaharomszogadatait(randomTriangle);
 
             // Felhasználói bemenet
             Console.WriteLine("\nKérem az oldalakat:");
@@ -26,15 +26,15 @@ namespace Háromszögek_típusa
             int userC = int.Parse(Console.ReadLine());
 
             HTipus userTriangle = new HTipus(userA, userB, userC);
-            PrintTriangleProperties(userTriangle);
+            Írjakiaharomszogadatait(userTriangle);
         }
 
-        static void PrintTriangleProperties(HTipus triangle)
+        static void Írjakiaharomszogadatait(HTipus haromszog)
         {
-            Console.WriteLine($"Ez háromszög: {triangle.EzHaromszog()}");
-            Console.WriteLine($"Derékszögű: {triangle.Derekszogue()}");
-            Console.WriteLine($"Egyenlő szárú: {triangle.Egyenloszarue()}");
-            Console.WriteLine($"Egyenlő oldalú: {triangle.Egyenlooldalu()}");
+            Console.WriteLine($"Ez háromszög: {haromszog.EzHaromszog()}");
+            Console.WriteLine($"Derékszögű: {haromszog.Derekszogue()}");
+            Console.WriteLine($"Egyenlő szárú: {haromszog.Egyenloszarue()}");
+            Console.WriteLine($"Egyenlő oldalú: {haromszog.Egyenlooldalu()}");
         }
     }
 }
