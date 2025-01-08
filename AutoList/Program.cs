@@ -14,7 +14,7 @@ namespace AutoList
             List<JarmuClass> jarmuvek = new List<JarmuClass>();
 
             // Fájl beolvasása
-            Console.Write("Kérem adja meg a fájl nevét: ");
+            Console.Write("Kérem adja meg a fájl nevét (vagy a teljes elérési utat): ");
             string fileName = Console.ReadLine();
 
             Console.WriteLine($"A megadott fájl neve: {fileName}");  // Ellenőrizzük, hogy mit adtunk meg

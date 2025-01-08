@@ -1,0 +1,15 @@
+John Doe,1990-06-15,Férfi,8
+Jane Smith,1992-03-22,Nő,6
+Alice Brown,1988-11-10,Nő,9
+Bob Johnson,1995-07-30,Férfi,7
+Charlie White,1985-05-12,Férfi,5
+Diana Green,1993-08-23,Nő,8
+Ethan Black,1991-09-15,Férfi,3
+Fiona Blue,1990-11-30,Nő,10
+George Red,1987-02-25,Férfi,4
+Hannah Yellow,1996-01-14,Nő,6
+Isaac Pink,1994-12-01,Férfi,2
+Jack Purple,1989-06-18,Férfi,9
+Kara Cyan,1992-05-09,Nő,7
+Liam Brown,1990-09-11,Férfi,8
+Megan Silver,1986-03-05,Nő,5
