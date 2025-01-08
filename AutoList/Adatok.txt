@@ -1,0 +1,15 @@
+ABC-123;Ford;Focus;2015;2025-05-30;Kovács János
+DEF-456;Audi;A4;2018;2023-08-10;Nagy Péter
+GHI-789;BMW;320i;2012;2024-01-15;Szabó László
+JKL-101;Mercedes;B-Class;2020;2024-06-30;Orbán Viktor
+MNO-202;Volkswagen;Golf;2017;2025-12-20;Kiss Zoltán
+PQR-303;Toyota;Corolla;2016;2024-03-12;Takács Gabriella
+STU-404;Skoda;Octavia;2014;2025-02-28;Horváth Gábor
+VWX-505;Peugeot;308;2019;2024-09-01;Tóth Anna
+YZA-606;Fiat;Panda;2011;2023-11-22;Farkas Ádám
+BCD-707;Opel;Astra;2015;2025-05-05;Bíró Tamás
+EFG-808;Hyundai;i30;2018;2024-07-30;Mészáros Béla
+HIJ-909;Renault;Megane;2013;2025-10-17;Juhász Klára
+KLM-111;Citroen;C4;2019;2024-12-15;Németh Zsuzsanna
+NOP-212;Mazda;3;2016;2024-04-03;Varga Péter
+QRS-313;Nissan;Qashqai;2021;2025-03-10;Szőke Andrea
