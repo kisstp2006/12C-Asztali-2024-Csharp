@@ -34,6 +34,11 @@ namespace AutoList
             Kiir(jarmuvek);
         }
 
+        private static void Beolvas(string fileName, List<JarmuClass> jarmuvek)
+        {
+            throw new NotImplementedException();
+        }
+
         private static void Kiir(List<JarmuClass> jarmuvek)
         {
             throw new NotImplementedException();
@@ -41,4 +46,4 @@ namespace AutoList
 
         }
     }
-}
+
