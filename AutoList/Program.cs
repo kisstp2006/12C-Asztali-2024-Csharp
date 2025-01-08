@@ -39,10 +39,6 @@ namespace AutoList
             throw new NotImplementedException();
         }
 
-        private static void Beolvas(string fileName, List<JarmuClass> jarmuvek)
-        {
-
-            throw new NotImplementedException();
         }
     }
 }
