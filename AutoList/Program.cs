@@ -39,6 +39,8 @@ namespace AutoList
             // Kiíratás táblázatos formában
             Console.WriteLine("\nA beolvasott adatok:");
             Kiir(jarmuvek);
+
+            Console.ReadKey();
         }
 
 
