@@ -16,7 +16,7 @@ namespace Kivetel
             Console.ReadKey();
         }
 
-        public void Altalanoshibakezeles()
+        public void Altalanokivetel()
         {
             Console.WriteLine("Van kivetel kezeles");
 
@@ -29,7 +29,7 @@ namespace Kivetel
             catch
             {
                 Console.WriteLine("hiba");
-                //throw;
+               
             }
 
         }
@@ -46,13 +46,43 @@ namespace Kivetel
             catch (Exception e)
             {
                 Console.WriteLine("A következő hiba lépett fel :", e);
-                //throw;
+                
             }
 
         }
 
-        public void Hibakezeles2()
+        public void OsHiba()
         {
+            Console.WriteLine("Van kivetel kezeles");
+
+            try
+            {
+                int szam = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine($"A beírt szám:{szam}");
+                Console.ReadKey();
+            }
+            catch (FormatException e)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine(e);
+              
+            }
+        }
+        public void Kivetelsajatosztalyak()
+        {
+            Console.WriteLine("Van kivetel kezeles");
+
+            try
+            {
+                int szam = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine($"A beírt szám:{szam}");
+                Console.ReadKey();
+            }
+            catch (FormatException e)
+            {
+                throw new ArgumentException("Hiba");
+              
+            }
 
         }
     }

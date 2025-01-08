@@ -11,9 +11,12 @@ namespace Kivetel
         static void Main(string[] args)
         {
             kivetelek kivet = new kivetelek();
-            kivet.Nincskivetel();
-            kivet.Altalanoshibakezeles();
-            kivet.Altalanoshibakezeles2();
+            //kivet.Nincskivetel();
+
+            //kivet.Altalanokivetel();
+
+            //kivet.OsHiba();
+            Console.ReadKey();
         }
     }
 }
