@@ -45,7 +45,7 @@ namespace Kockak
             public void SetOldal1(double a)
             {
                 oldal1 = a;
-                if (oldal2 == 0) // Ha oldal2 nincs beállítva, akkor négyzetet feltételezünk
+                if (oldal2 == 0) // Ha oldal2 nincs akkor négyzetet feltételezünk
                 {
                     oldal2 = a;
                 }

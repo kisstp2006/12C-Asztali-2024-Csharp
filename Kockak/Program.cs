@@ -29,6 +29,8 @@ namespace Kockak
             // SetOldal2 teszt
             negyszog1.SetOldal2(6, 7);
             Console.WriteLine($"Terület: {negyszog1.GetTerulet()}, Kerület: {negyszog1.GetKerulet()}");
+
+            Console.ReadKey();
         }
     }
 }
