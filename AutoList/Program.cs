@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.IO;
 namespace AutoList
 {
     class Program
@@ -32,15 +32,39 @@ namespace AutoList
             // Kiíratás táblázatos formában
             Console.WriteLine("\nA beolvasott adatok:");
             Kiir(jarmuvek);
+
+            Console.ReadKey();
         }
 
         private static void Beolvas(string fileName, List<JarmuClass> jarmuvek)
         {
-            throw new NotImplementedException();
+            using (StreamReader sr = new StreamReader(fileName))
+            {
+                string line;
+                while ((line = sr.ReadLine()) != null)
+                {
+                    // Sorok feldolgozása és oszlopokra bontása
+                    string[] adatok = line.Split(';');
+
+                    if (adatok.Length == 6)
+                    {
+                        string rendszam = adatok[0].Trim();
+                        string gyartmany = adatok[1].Trim();
+                        string tipus = adatok[2].Trim();
+                        int gyartasiEv = int.Parse(adatok[3].Trim());
+                        DateTime muszakiVizsga = DateTime.Parse(adatok[4].Trim());
+                        string tulajdonos = adatok[5].Trim();
+
+                        // Új jármű példány hozzáadása a listához
+                        jarmuvek.Add(new JarmuClass(rendszam, gyartmany, tipus, gyartasiEv, muszakiVizsga, tulajdonos));
+                    }
+                }
+            }
         }
 
         private static void Kiir(List<JarmuClass> jarmuvek)
         {
+            Console.WriteLine("NOT IMPLEMENTED");
             throw new NotImplementedException();
         }
 
