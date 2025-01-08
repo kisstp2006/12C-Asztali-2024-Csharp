@@ -8,42 +8,60 @@ namespace AutoList
 {
     class Program
     {
-
         static void Main(string[] args)
         {
-            // A jarmuvek listaja
+            // A járművek listája
             List<JarmuClass> jarmuvek = new List<JarmuClass>();
 
-            // Adja meg a file nevét
+            // Fájl beolvasása
             Console.Write("Kérem adja meg a fájl nevét: ");
             string fileName = Console.ReadLine();
-            //Kiserlet a file beolvasására
+
+            Console.WriteLine($"A megadott fájl neve: {fileName}");  // Ellenőrizzük, hogy mit adtunk meg
 
             try
             {
                 Beolvas(fileName, jarmuvek);
-                Console.WriteLine("\nAdatok sikeresen beolvasva.");
+                if (jarmuvek.Count > 0)
+                {
+                    Console.WriteLine("\nAdatok sikeresen beolvasva.");
+                }
+                else
+                {
+                    Console.WriteLine("\nNem olvasható be adat a fájlból.");
+                }
             }
             catch (Exception ex)
             {
                 Console.WriteLine("Hiba történt a fájl beolvasása során: " + ex.Message);
-                return;
             }
+
             // Kiíratás táblázatos formában
             Console.WriteLine("\nA beolvasott adatok:");
             Kiir(jarmuvek);
-
-            Console.ReadKey();
         }
 
-        private static void Beolvas(string fileName, List<JarmuClass> jarmuvek)
+
+        // Beolvasás metódus
+        static void Beolvas(string fileName, List<JarmuClass> jarmuvek)
         {
+            // Ellenőrizzük, hogy a fájl létezik-e
+            if (!File.Exists(fileName))
+            {
+                Console.WriteLine($"A fájl nem található: {fileName}");
+                return;
+            }
+
             using (StreamReader sr = new StreamReader(fileName))
             {
                 string line;
                 while ((line = sr.ReadLine()) != null)
                 {
-                    // Sorok feldolgozása és oszlopokra bontása
+                    // Ha üres sort olvasunk be, azt hagyjuk ki
+                    if (string.IsNullOrWhiteSpace(line)) continue;
+
+                    Console.WriteLine($"Beolvasott sor: {line}");  // Kiírjuk a beolvasott sort
+
                     string[] adatok = line.Split(';');
 
                     if (adatok.Length == 6)
@@ -55,14 +73,20 @@ namespace AutoList
                         DateTime muszakiVizsga = DateTime.Parse(adatok[4].Trim());
                         string tulajdonos = adatok[5].Trim();
 
-                        // Új jármű példány hozzáadása a listához
+                        // Új jármű hozzáadása a listához
                         jarmuvek.Add(new JarmuClass(rendszam, gyartmany, tipus, gyartasiEv, muszakiVizsga, tulajdonos));
+                    }
+                    else
+                    {
+                        Console.WriteLine($"Hibás adat: {line}");  // Hibás sorok jelzése
                     }
                 }
             }
         }
 
-        private static void Kiir(List<JarmuClass> jarmuvek)
+
+        // Kiírás metódus
+        static void Kiir(List<JarmuClass> jarmuvek)
         {
             // Fejléc kiírása
             Console.WriteLine($"{"Rendszám",-10} | {"Gyártmány",-10} | {"Típus",-10} | {"Év",-4} | {"Műszaki vizsga",-15} | {"Tulajdonos"}");
@@ -74,7 +98,6 @@ namespace AutoList
                 Console.WriteLine(jarmu.ToString());
             }
         }
-
-        }
     }
+}
 
