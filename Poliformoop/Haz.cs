@@ -18,6 +18,11 @@ namespace Poliformoop
         {
             int i;
             Random rd = new Random();
+            if (nbers.Count >0)
+            {
+                i = rd.Next(0, nbers.Count - 1);
+                Console.WriteLine(nbers[i].beszel());
+            }
         }
     }
 }
