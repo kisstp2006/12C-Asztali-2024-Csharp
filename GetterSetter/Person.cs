@@ -12,7 +12,7 @@ namespace GetterSetter
 
         public string Name { get; set; }
         private int id;
-        public int ID { get => id; set=> id=101 ; }
+        public int ID { get => id; set => id = 101; }
 
         private int age;
 
@@ -26,11 +26,14 @@ namespace GetterSetter
         {
             switch (gender)
             {
-                case "Férfi" : this.gender = 1;
+                case "Férfi":
+                    this.gender = 1;
                     break;
-                case "Nő": this.gender = 2;
+                case "Nő":
+                    this.gender = 2;
                     break;
-                default: this.gender = 3;
+                default:
+                    this.gender = 3;
                     break;
             }
         }
@@ -44,7 +47,7 @@ namespace GetterSetter
                 case 2:
                     return "Nő";
                     break;
-                default:return "Nem helyes nem";
+                default: return "Nem helyes nem";
             }
         }
         public static void Main(string[] args)
