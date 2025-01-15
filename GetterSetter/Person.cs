@@ -34,5 +34,28 @@ namespace GetterSetter
                     break;
             }
         }
+        public string GetGender()
+        {
+            switch (this.gender)
+            {
+                case 1:
+                    return "Férfi";
+                    break;
+                case 2:
+                    return "Nő";
+                    break;
+                default:return "Nem helyes nem";
+            }
+        }
+        public static void Main(string[] args)
+        {
+            Person person = new Person();
+            person.Name = "Ádám";
+            Console.WriteLine(person.Name);
+
+            person.ID = 99;
+            Console.WriteLine(person.ID);
+            Console.Read();
+        }
     }
 }
