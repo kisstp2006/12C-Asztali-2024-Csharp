@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace Poliformoop
 {
-    class Program
+    class PoliformOOP
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("ASD");
+            Console.ReadKey();
         }
     }
 }
