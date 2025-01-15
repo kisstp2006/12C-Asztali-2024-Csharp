@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaratList", "BaratList\Bara
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poliformoop", "Poliformoop\Poliformoop.csproj", "{4C363982-31DB-446C-9DFB-53CBC103C08E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetterSetter", "GetterSetter\GetterSetter.csproj", "{F84E1389-C82D-43EB-96AC-82B2D8A7ED99}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{4C363982-31DB-446C-9DFB-53CBC103C08E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C363982-31DB-446C-9DFB-53CBC103C08E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C363982-31DB-446C-9DFB-53CBC103C08E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F84E1389-C82D-43EB-96AC-82B2D8A7ED99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F84E1389-C82D-43EB-96AC-82B2D8A7ED99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F84E1389-C82D-43EB-96AC-82B2D8A7ED99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F84E1389-C82D-43EB-96AC-82B2D8A7ED99}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
