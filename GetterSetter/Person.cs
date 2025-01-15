@@ -26,14 +26,11 @@ namespace GetterSetter
         {
             switch (gender)
             {
-                case "Férfi" :
-                    this.gender = 1;
+                case "Férfi" : this.gender = 1;
                     break;
-                case "Nő":
-                    this.gender = 2;
+                case "Nő": this.gender = 2;
                     break;
-                default:
-                    this.gender = 0;
+                default: this.gender = 3;
                     break;
             }
         }
