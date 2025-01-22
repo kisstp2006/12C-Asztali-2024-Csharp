@@ -16,19 +16,24 @@ namespace GetterSetter
         eszerüsített kezelését teszi lehetővé
          */
         public Person() { }
-
+        // property alap deklarációja
+        // itt nem ellenőrizzük a beírást és a kiírást. az osztályváltozó is név nélküli , nem férünk közvetlenül hozzá.
         public string Name { get; set; }
+        //Ha a property mögötti osztályváltozóhoz közvetlenükl hozzá akarunk férni akkor a következő módon járunk el
         private int id;
-        public int ID { get => id; set => id = 101; }
 
-        private int age;
+        public int ID { get => id; set => id = 101; }
+        //Ez őedog az eredeti , eddig használt megoldás
+        private int age; // osztályváltozó
 
         public void setAge(int age)
         {
             this.age = age;
         }
         public int getAge() { return this.age; }
+        //Abban az esetben ha összetettebb beviteli és / vagy kiolvasási eljárást használunk , akkor érdemesenn a hagyo mányos módon eljárni
         private int gender;
+
         public void SetGender(string gender)
         {
             switch (gender)
