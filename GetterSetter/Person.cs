@@ -8,6 +8,13 @@ namespace GetterSetter
 {
     class Person
     {
+        /*Az a project a property-k használatát mutatja be*/
+        /*A property-k olyan változók amelyek publikusak és van két metódusuk
+         - set az érték nek az ellenőrzött beállításához
+         - get metódus az értékének az ellenörzött visszaadáshoz
+            Tulajdonképpen az osztályváltozok (amelyek private láthattóságúak és külön külön írtuk hozzá beállító és kiolvasó metódusokat)
+        eszerüsített kezelését teszi lehetővé
+         */
         public Person() { }
 
         public string Name { get; set; }
