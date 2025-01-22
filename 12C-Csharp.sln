@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Poliformoop", "Poliformoop\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetterSetter", "GetterSetter\GetterSetter.csproj", "{F84E1389-C82D-43EB-96AC-82B2D8A7ED99}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "properties", "properties\properties.csproj", "{3FB14597-67C7-46B9-87FE-1F9F002CBE22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{F84E1389-C82D-43EB-96AC-82B2D8A7ED99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F84E1389-C82D-43EB-96AC-82B2D8A7ED99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F84E1389-C82D-43EB-96AC-82B2D8A7ED99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FB14597-67C7-46B9-87FE-1F9F002CBE22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FB14597-67C7-46B9-87FE-1F9F002CBE22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FB14597-67C7-46B9-87FE-1F9F002CBE22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FB14597-67C7-46B9-87FE-1F9F002CBE22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
