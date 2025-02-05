@@ -31,4 +31,34 @@ namespace Abstract
         }
 
     }
+
+    class Circle : Shape
+    {
+        private double Sugar;
+
+        public Circle(double r)
+        {
+            this.Sugar = r;
+        }
+
+        //Abstract metúdis implementálása
+        public override double GetArea()
+        {
+            return Math.PI*Sugar*Sugar;
+        }
+    }
+    class Program
+    {
+        static void Main(string[] args) 
+        {
+            //Shape példányosítása nem lehetséges:
+            //Shape shape = new Shape(); //Fordítási hiba
+            //Circle példányosítása
+            Circle circle = new Circle(5);
+            Console.WriteLine("A kör területe:"+circle.GetArea());
+            circle.DisplayShape();
+
+            Console.ReadKey();
+        }
+    }
 }
