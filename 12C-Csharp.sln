@@ -39,7 +39,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleMessageBox", "Consol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract", "Abstract\Abstract.csproj", "{C1E13F92-1999-4C62-ABD7-90A8A9EB9F2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElsuUI", "UIApp\ElsuUI.csproj", "{95F99DFF-8882-4204-BC59-DEE33C00CF41}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElsuUI", "UIApp\ElsuUI.csproj", "{95F99DFF-8882-4204-BC59-DEE33C00CF41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAlignSharp", "TextAlignSharp\TextAlignSharp.csproj", "{701E62A6-D2D9-4291-B63E-D22CD56DECE7}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TextAlignBasic", "TextAlignBasic\TextAlignBasic.vbproj", "{3F53A3FA-226F-4C75-BFAB-C8BF2F1F7085}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormCursors", "FormCursors\FormCursors.csproj", "{0E06902D-E6C2-427C-9474-070EFD55C1BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +129,18 @@ Global
 		{95F99DFF-8882-4204-BC59-DEE33C00CF41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95F99DFF-8882-4204-BC59-DEE33C00CF41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95F99DFF-8882-4204-BC59-DEE33C00CF41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{701E62A6-D2D9-4291-B63E-D22CD56DECE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{701E62A6-D2D9-4291-B63E-D22CD56DECE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{701E62A6-D2D9-4291-B63E-D22CD56DECE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{701E62A6-D2D9-4291-B63E-D22CD56DECE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F53A3FA-226F-4C75-BFAB-C8BF2F1F7085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F53A3FA-226F-4C75-BFAB-C8BF2F1F7085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F53A3FA-226F-4C75-BFAB-C8BF2F1F7085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F53A3FA-226F-4C75-BFAB-C8BF2F1F7085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E06902D-E6C2-427C-9474-070EFD55C1BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E06902D-E6C2-427C-9474-070EFD55C1BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E06902D-E6C2-427C-9474-070EFD55C1BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E06902D-E6C2-427C-9474-070EFD55C1BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
