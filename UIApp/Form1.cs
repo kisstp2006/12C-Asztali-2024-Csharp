@@ -22,11 +22,13 @@ namespace UIApp
             if (p.X- lepesoldal > 0 && iranybalra && p.Y - lepesfel > 0 && felfele)
             {
                 btn_clickme.Location = new Point(btn_clickme.Location.X-20 , btn_clickme.Location.Y - 20);
+                Console.WriteLine("Felfele");
 
             }
-            if (p.X + lepesoldal < Width && iranybalra && p.Y + lepesfel < Height && felfele)
+            if (p.X + lepesoldal+ btn_clickme.Width < Width && iranybalra && p.Y + lepesfel+ btn_clickme.Height < Height && felfele)
             {
-                btn_clickme.Location = new Point(btn_clickme.Location.X - 20, btn_clickme.Location.Y - 20);
+                Console.WriteLine("Lefele");
+                btn_clickme.Location = new Point(btn_clickme.Location.X + 20, btn_clickme.Location.Y + 20);
 
             }
 
