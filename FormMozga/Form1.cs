@@ -76,10 +76,19 @@ namespace FormMozga
 
         private void btnFel_Click(object sender, EventArgs e)
         {
-            if(Location.Y>0)
-            Location = new Point(Location.X, Location.Y-5);
+            if (Location.Y > 0)
+                Location = new Point(Location.X, Location.Y - 5);
             else
-            Location = new Point(Location.X, 0);
+                Location = new Point(Location.X, 0);
+
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            windowsizewidth = Screen.GetWorkingArea(this).Width;
+            windowsizeheight = Screen.GetWorkingArea(this).Height;
+            var kijelzokozep = new Point(windowsizewidth/5, windowsizeheight/5);
+            Location = kijelzokozep;
 
         }
     }

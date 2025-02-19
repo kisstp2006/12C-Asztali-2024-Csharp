@@ -121,6 +121,7 @@
             button9.TabIndex = 0;
             button9.Text = "Középre";
             button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
             // 
             // btnBalra
             // 
