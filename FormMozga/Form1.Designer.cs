@@ -58,6 +58,7 @@
             btnJobb.TabIndex = 0;
             btnJobb.Text = "Jobbra";
             btnJobb.UseVisualStyleBackColor = true;
+            btnJobb.Click += btnJobb_Click;
             // 
             // btnFel
             // 
@@ -90,6 +91,7 @@
             btnJobbszel.TabIndex = 0;
             btnJobbszel.Text = "Jobbszélre";
             btnJobbszel.UseVisualStyleBackColor = true;
+            btnJobbszel.Click += btnJobbszel_Click;
             // 
             // btnLe
             // 
@@ -100,6 +102,7 @@
             btnLe.TabIndex = 0;
             btnLe.Text = "Lefele";
             btnLe.UseVisualStyleBackColor = true;
+            btnLe.Click += btnLe_Click;
             // 
             // btnAlul
             // 
@@ -132,6 +135,7 @@
             btnBalra.TabIndex = 0;
             btnBalra.Text = "Balra";
             btnBalra.UseVisualStyleBackColor = true;
+            btnBalra.Click += btnBalra_Click;
             // 
             // btnBalszel
             // 
@@ -142,6 +146,7 @@
             btnBalszel.TabIndex = 0;
             btnBalszel.Text = "Balszélre";
             btnBalszel.UseVisualStyleBackColor = true;
+            btnBalszel.Click += btnBalszel_Click;
             // 
             // gpbAtlatszo
             // 
@@ -242,7 +247,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ActiveCaptionText;
+            BackColor = Color.DarkGray;
             ClientSize = new Size(819, 519);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -260,6 +265,7 @@
             Margin = new Padding(4, 3, 4, 3);
             Name = "Form1";
             Text = "Form1";
+            Load += Form1_Load;
             gpbAtlatszo.ResumeLayout(false);
             gpbMeret.ResumeLayout(false);
             ResumeLayout(false);

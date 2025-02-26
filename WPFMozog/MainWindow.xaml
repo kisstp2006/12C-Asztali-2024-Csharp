@@ -1,0 +1,66 @@
+﻿<Window x:Class="WPFMozog.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="600" Width="900"
+        Background="#1e1e1e">
+    <Window.Resources>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#0078D7"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border Background="{TemplateBinding Background}"
+                                CornerRadius="5">
+                            <ContentPresenter HorizontalAlignment="Center"
+                                              VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="Background" Value="#333333"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontFamily" Value="Segoe UI"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="BorderBrush" Value="#0078D7"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="HorizontalAlignment" Value="Center"/>
+            <Setter Property="VerticalAlignment" Value="Center"/>
+        </Style>
+    </Window.Resources>
+    <Grid Margin="0,0,0,-6">
+        <Button x:Name="btnJobb" Content="Jobbra" Width="96" Height="33" Margin="458,243,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="btnJobb_Click"/>
+        <Button x:Name="btnFel" Content="Fel" Width="96" Height="33" Margin="349,188,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="btnFel_Click"/>
+        <Button x:Name="btnFelul" Content="Felülre" Width="96" Height="33" Margin="349,127,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="btnFelul_Click"/>
+        <Button x:Name="btnJobbszel" Content="Jobbszélre" Width="96" Height="33" Margin="568,243,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="btnJobbszel_Click"/>
+        <Button x:Name="btnLe" Content="Lefele" Width="96" Height="33" Margin="349,310,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="btnLe_Click"/>
+        <Button x:Name="btnAlul" Content="Alulra" Width="96" Height="33" Margin="349,372,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="btnAlul_Click"/>
+        <Button x:Name="button9" Content="Középre" Width="96" Height="33" Margin="349,243,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="button9_Click"/>
+        <Button x:Name="btnBalra" Content="Balra" Width="96" Height="33" Margin="239,243,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="btnBalra_Click"/>
+        <Button x:Name="btnBalszel" Content="Balszélre" Width="96" Height="33" Margin="130,243,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Click="btnBalszel_Click"/>
+        <GroupBox x:Name="gpbAtlatszo" Header="Átlátszóság" Background="#484444" Width="444" Height="66" Margin="198,440,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button x:Name="btnOpNo" Content="Növekszik" Width="96" Height="33" Margin="5" Click="btnOpNo_Click"/>
+                <Button x:Name="btnOpCsok" Content="Csökken" Width="96" Height="33" Margin="5" Click="btnOpCsok_Click"/>
+            </StackPanel>
+        </GroupBox>
+        <GroupBox x:Name="gpbMeret" Header="Méret" Background="#484444" Width="444" Height="66" Margin="198,14,0,0" VerticalAlignment="Top" HorizontalAlignment="Left">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <Button x:Name="btnMeretNo" Content="Növekszik" Width="96" Height="33" Margin="5" Click="btnMeretNo_Click"/>
+                <Button x:Name="btnCsok" Content="Csökken" Width="96" Height="33" Margin="5" Click="btnCsok_Click"/>
+            </StackPanel>
+        </GroupBox>
+    </Grid>
+</Window>

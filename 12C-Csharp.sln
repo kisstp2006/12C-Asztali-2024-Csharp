@@ -41,13 +41,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract", "Abstract\Abstra
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ElsuUI", "UIApp\ElsuUI.csproj", "{95F99DFF-8882-4204-BC59-DEE33C00CF41}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAlignSharp", "TextAlignSharp\TextAlignSharp.csproj", "{701E62A6-D2D9-4291-B63E-D22CD56DECE7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextAlignSharp", "TextAlignSharp\TextAlignSharp.csproj", "{701E62A6-D2D9-4291-B63E-D22CD56DECE7}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TextAlignBasic", "TextAlignBasic\TextAlignBasic.vbproj", "{3F53A3FA-226F-4C75-BFAB-C8BF2F1F7085}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "TextAlignBasic", "TextAlignBasic\TextAlignBasic.vbproj", "{3F53A3FA-226F-4C75-BFAB-C8BF2F1F7085}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormCursors", "FormCursors\FormCursors.csproj", "{0E06902D-E6C2-427C-9474-070EFD55C1BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormCursors", "FormCursors\FormCursors.csproj", "{0E06902D-E6C2-427C-9474-070EFD55C1BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormMozga", "FormMozga\FormMozga.csproj", "{0E70F2DD-78D3-4C4A-9E06-2AEFCB7AEC6C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormMozga", "FormMozga\FormMozga.csproj", "{0E70F2DD-78D3-4C4A-9E06-2AEFCB7AEC6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFMozog", "WPFMozog\WPFMozog.csproj", "{50AF2FEE-E374-4260-802A-E802B7F0B433}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +149,10 @@ Global
 		{0E70F2DD-78D3-4C4A-9E06-2AEFCB7AEC6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E70F2DD-78D3-4C4A-9E06-2AEFCB7AEC6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E70F2DD-78D3-4C4A-9E06-2AEFCB7AEC6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50AF2FEE-E374-4260-802A-E802B7F0B433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50AF2FEE-E374-4260-802A-E802B7F0B433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50AF2FEE-E374-4260-802A-E802B7F0B433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50AF2FEE-E374-4260-802A-E802B7F0B433}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
