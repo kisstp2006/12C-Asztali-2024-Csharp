@@ -1,0 +1,20 @@
+﻿<Window x:Class="Kepekkorbe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Kepekkorbe"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image Margin="274,85,452,276" Source="/images/fej1.png" Stretch="Fill"/>
+        <Image Margin="416,85,312,276" Source="/images/fej2.png" Stretch="Fill"/>
+        <Image Margin="519,182,207,178" Source="/images/fej3.png" Stretch="Fill"/>
+        <Image Margin="276,299,452,63" Source="/images/fej4.png" Stretch="Fill"/>
+        <Image Margin="175,182,552,182" Source="/images/fej8.png" Stretch="Fill"/>
+        <Image Margin="162,19,612,374" Source="/images/forgbal.png" Stretch="Fill"/>
+        <Image Margin="519,19,254,374" Source="/images/forgjobb.png" Stretch="Fill"/>
+        <Image Margin="416,298,312,63" Source="/images/fej2.png" Stretch="Fill"/>
+
+    </Grid>
+</Window>
