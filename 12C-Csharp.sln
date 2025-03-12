@@ -49,11 +49,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormCursors", "FormCursors\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FormMozga", "FormMozga\FormMozga.csproj", "{0E70F2DD-78D3-4C4A-9E06-2AEFCB7AEC6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPFMozog", "WPFMozog\WPFMozog.csproj", "{50AF2FEE-E374-4260-802A-E802B7F0B433}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPFMozog", "WPFMozog\WPFMozog.csproj", "{50AF2FEE-E374-4260-802A-E802B7F0B433}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kepekkorbe", "Kepekkorbe\Kepekkorbe.csproj", "{BD21F49F-1C48-440A-911A-1FEE6DBA11D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kepekkorbe", "Kepekkorbe\Kepekkorbe.csproj", "{BD21F49F-1C48-440A-911A-1FEE6DBA11D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kepkor", "kepkor\kepkor.csproj", "{6D25DBF9-2FCE-456A-AA0A-E660939E8835}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kepkor", "kepkor\kepkor.csproj", "{6D25DBF9-2FCE-456A-AA0A-E660939E8835}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Halmazok", "Halmazok\Halmazok.csproj", "{D7728B49-93A8-4948-BE50-B9FB0FA29A37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -165,6 +167,10 @@ Global
 		{6D25DBF9-2FCE-456A-AA0A-E660939E8835}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D25DBF9-2FCE-456A-AA0A-E660939E8835}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D25DBF9-2FCE-456A-AA0A-E660939E8835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7728B49-93A8-4948-BE50-B9FB0FA29A37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7728B49-93A8-4948-BE50-B9FB0FA29A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7728B49-93A8-4948-BE50-B9FB0FA29A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7728B49-93A8-4948-BE50-B9FB0FA29A37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
