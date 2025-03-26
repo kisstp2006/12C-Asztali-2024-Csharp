@@ -123,6 +123,7 @@
             label10.Name = "label10";
             label10.Size = new Size(100, 82);
             label10.TabIndex = 9;
+            label10.Click += label10_Click;
             // 
             // Form1
             // 

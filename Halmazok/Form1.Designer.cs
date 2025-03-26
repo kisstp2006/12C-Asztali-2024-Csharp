@@ -60,7 +60,6 @@
             ahalmaz.Name = "ahalmaz";
             ahalmaz.Size = new Size(161, 289);
             ahalmaz.TabIndex = 0;
-            ahalmaz.SelectedIndexChanged += listBox1_SelectedIndexChanged;
             // 
             // bhalmaz
             // 
@@ -79,6 +78,7 @@
             metszetform.Name = "metszetform";
             metszetform.Size = new Size(163, 289);
             metszetform.TabIndex = 2;
+            metszetform.SelectedIndexChanged += metszetform_SelectedIndexChanged;
             // 
             // label1
             // 

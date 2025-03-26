@@ -13,13 +13,14 @@ namespace Halmazok
             InitializeComponent();
         }
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void generate_Click(object sender, EventArgs e)
         {
+            ahalmaz.Items.Clear();
+            bhalmaz.Items.Clear();
+            metszetform.Items.Clear();
+            unionform.Items.Clear();
+            BcomplementA.Items.Clear();
+            AcomplementB.Items.Clear();
             //A halmaz generálása
             for (int i = 0; i < mennyit.Value; i++)
             {
@@ -37,17 +38,18 @@ namespace Halmazok
         private void halmazok_mutatása()
         {
             //Console.WriteLine("Halmazok kiírása elkezdõdöt");
-            //Metszet
 
             for (int i = 0; i < ahalmaz.Items.Count; i++)
             {
                 ahalmazszamok.Add(int.Parse(ahalmaz.Items[i].ToString()));
 
             }
+
             for (int i = 0; i < bhalmaz.Items.Count; i++)
             {
                 bhalmazszamok.Add(int.Parse(bhalmaz.Items[i].ToString()));
             }
+            //Metszet
             var metszet = ahalmazszamok.Intersect(bhalmazszamok).ToList();
             for (int i = 0; i < metszet.Count(); i++)
             {
@@ -75,6 +77,9 @@ namespace Halmazok
             }
         }
 
+        private void metszetform_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
+        }
     }
 }

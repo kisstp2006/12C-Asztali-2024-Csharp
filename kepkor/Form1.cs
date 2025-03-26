@@ -25,7 +25,7 @@ namespace kepkor
 
         private void label9_Click(object sender, EventArgs e)
         {
-            
+
         }
         private void ChangeImg()
         {
@@ -70,6 +70,11 @@ namespace kepkor
         private void label6_Click(object sender, EventArgs e)
         {
             ChangeImg();
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

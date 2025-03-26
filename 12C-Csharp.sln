@@ -55,7 +55,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kepekkorbe", "Kepekkorbe\Ke
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kepkor", "kepkor\kepkor.csproj", "{6D25DBF9-2FCE-456A-AA0A-E660939E8835}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Halmazok", "Halmazok\Halmazok.csproj", "{D7728B49-93A8-4948-BE50-B9FB0FA29A37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Halmazok", "Halmazok\Halmazok.csproj", "{D7728B49-93A8-4948-BE50-B9FB0FA29A37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQL", "SQL\SQL.csproj", "{FEFFEC1A-046A-4187-9F85-30911B93053B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLViewer", "SQLViewer\SQLViewer.csproj", "{7ED22763-6E87-4B71-8721-9F2D96474BB2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +175,14 @@ Global
 		{D7728B49-93A8-4948-BE50-B9FB0FA29A37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7728B49-93A8-4948-BE50-B9FB0FA29A37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7728B49-93A8-4948-BE50-B9FB0FA29A37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEFFEC1A-046A-4187-9F85-30911B93053B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEFFEC1A-046A-4187-9F85-30911B93053B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEFFEC1A-046A-4187-9F85-30911B93053B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEFFEC1A-046A-4187-9F85-30911B93053B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ED22763-6E87-4B71-8721-9F2D96474BB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ED22763-6E87-4B71-8721-9F2D96474BB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ED22763-6E87-4B71-8721-9F2D96474BB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ED22763-6E87-4B71-8721-9F2D96474BB2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
