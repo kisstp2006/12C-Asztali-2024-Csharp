@@ -28,42 +28,42 @@
         /// </summary>
         private void InitializeComponent()
         {
-            tbxazon = new TextBox();
-            tbxnev = new TextBox();
-            tbxjel = new TextBox();
+            tbxID = new TextBox();
+            tbxNev = new TextBox();
+            tbxJelszo = new TextBox();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
             cbxAdmin = new CheckBox();
-            btxdiscon = new Button();
-            btxkapcsol = new Button();
-            btxopenread = new Button();
-            btxread = new Button();
-            insert = new Button();
-            btxchanges = new Button();
-            btxdelete = new Button();
+            btnClose = new Button();
+            btnCon = new Button();
+            btnOpen = new Button();
+            btnRead = new Button();
+            btnInsert = new Button();
+            btnUpdate = new Button();
+            btnDelete = new Button();
             SuspendLayout();
             // 
-            // tbxazon
+            // tbxID
             // 
-            tbxazon.Location = new Point(35, 57);
-            tbxazon.Name = "tbxazon";
-            tbxazon.Size = new Size(100, 23);
-            tbxazon.TabIndex = 0;
+            tbxID.Location = new Point(35, 57);
+            tbxID.Name = "tbxID";
+            tbxID.Size = new Size(100, 23);
+            tbxID.TabIndex = 0;
             // 
-            // tbxnev
+            // tbxNev
             // 
-            tbxnev.Location = new Point(35, 141);
-            tbxnev.Name = "tbxnev";
-            tbxnev.Size = new Size(100, 23);
-            tbxnev.TabIndex = 1;
+            tbxNev.Location = new Point(35, 141);
+            tbxNev.Name = "tbxNev";
+            tbxNev.Size = new Size(100, 23);
+            tbxNev.TabIndex = 1;
             // 
-            // tbxjel
+            // tbxJelszo
             // 
-            tbxjel.Location = new Point(35, 222);
-            tbxjel.Name = "tbxjel";
-            tbxjel.Size = new Size(100, 23);
-            tbxjel.TabIndex = 2;
+            tbxJelszo.Location = new Point(35, 222);
+            tbxJelszo.Name = "tbxJelszo";
+            tbxJelszo.Size = new Size(100, 23);
+            tbxJelszo.TabIndex = 2;
             // 
             // label1
             // 
@@ -102,90 +102,95 @@
             cbxAdmin.Text = "Admin?";
             cbxAdmin.UseVisualStyleBackColor = true;
             // 
-            // btxdiscon
+            // btnClose
             // 
-            btxdiscon.Location = new Point(35, 377);
-            btxdiscon.Name = "btxdiscon";
-            btxdiscon.Size = new Size(120, 26);
-            btxdiscon.TabIndex = 7;
-            btxdiscon.Text = "Kapcsolat bontása";
-            btxdiscon.UseVisualStyleBackColor = true;
-            btxdiscon.Click += btxdiscon_Click;
+            btnClose.Location = new Point(35, 377);
+            btnClose.Name = "btnClose";
+            btnClose.Size = new Size(120, 26);
+            btnClose.TabIndex = 7;
+            btnClose.Text = "Kapcsolat bontása";
+            btnClose.UseVisualStyleBackColor = true;
+            btnClose.Click += btxdiscon_Click;
             // 
-            // btxkapcsol
+            // btnCon
             // 
-            btxkapcsol.Location = new Point(249, 54);
-            btxkapcsol.Name = "btxkapcsol";
-            btxkapcsol.Size = new Size(180, 26);
-            btxkapcsol.TabIndex = 8;
-            btxkapcsol.Text = "Kapcsolodás";
-            btxkapcsol.UseVisualStyleBackColor = true;
-            btxkapcsol.Click += Connect;
+            btnCon.Location = new Point(249, 54);
+            btnCon.Name = "btnCon";
+            btnCon.Size = new Size(180, 26);
+            btnCon.TabIndex = 8;
+            btnCon.Text = "Kapcsolodás";
+            btnCon.UseVisualStyleBackColor = true;
+            btnCon.Click += Connect;
             // 
-            // btxopenread
+            // btnOpen
             // 
-            btxopenread.Location = new Point(249, 117);
-            btxopenread.Name = "btxopenread";
-            btxopenread.Size = new Size(180, 26);
-            btxopenread.TabIndex = 9;
-            btxopenread.Text = "Megnyitás olvasásra";
-            btxopenread.UseVisualStyleBackColor = true;
+            btnOpen.Location = new Point(249, 117);
+            btnOpen.Name = "btnOpen";
+            btnOpen.Size = new Size(180, 26);
+            btnOpen.TabIndex = 9;
+            btnOpen.Text = "Megnyitás olvasásra";
+            btnOpen.UseVisualStyleBackColor = true;
+            btnOpen.Click += btnOpen_Click;
             // 
-            // btxread
+            // btnRead
             // 
-            btxread.Location = new Point(249, 184);
-            btxread.Name = "btxread";
-            btxread.Size = new Size(180, 26);
-            btxread.TabIndex = 10;
-            btxread.Text = "Olvas";
-            btxread.UseVisualStyleBackColor = true;
+            btnRead.Location = new Point(249, 184);
+            btnRead.Name = "btnRead";
+            btnRead.Size = new Size(180, 26);
+            btnRead.TabIndex = 10;
+            btnRead.Text = "Olvas";
+            btnRead.UseVisualStyleBackColor = true;
+            btnRead.Click += btnRead_Click;
             // 
-            // insert
+            // btnInsert
             // 
-            insert.Location = new Point(249, 247);
-            insert.Name = "insert";
-            insert.Size = new Size(180, 26);
-            insert.TabIndex = 11;
-            insert.Text = "Beszúrás";
-            insert.UseVisualStyleBackColor = true;
+            btnInsert.Location = new Point(249, 247);
+            btnInsert.Name = "btnInsert";
+            btnInsert.Size = new Size(180, 26);
+            btnInsert.TabIndex = 11;
+            btnInsert.Text = "Beszúrás";
+            btnInsert.UseVisualStyleBackColor = true;
+            btnInsert.Click += btnInsert_Click;
             // 
-            // btxchanges
+            // btnUpdate
             // 
-            btxchanges.Location = new Point(249, 310);
-            btxchanges.Name = "btxchanges";
-            btxchanges.Size = new Size(180, 26);
-            btxchanges.TabIndex = 12;
-            btxchanges.Text = "Módosítás kezelés";
-            btxchanges.UseVisualStyleBackColor = true;
+            btnUpdate.Location = new Point(249, 310);
+            btnUpdate.Name = "btnUpdate";
+            btnUpdate.Size = new Size(180, 26);
+            btnUpdate.TabIndex = 12;
+            btnUpdate.Text = "Módosítás kezelés";
+            btnUpdate.UseVisualStyleBackColor = true;
+            btnUpdate.Click += btnUpdate_Click;
             // 
-            // btxdelete
+            // btnDelete
             // 
-            btxdelete.Location = new Point(249, 377);
-            btxdelete.Name = "btxdelete";
-            btxdelete.Size = new Size(180, 26);
-            btxdelete.TabIndex = 13;
-            btxdelete.Text = "Törlés";
-            btxdelete.UseVisualStyleBackColor = true;
+            btnDelete.Location = new Point(249, 377);
+            btnDelete.Name = "btnDelete";
+            btnDelete.Size = new Size(180, 26);
+            btnDelete.TabIndex = 13;
+            btnDelete.Text = "Törlés";
+            btnDelete.UseVisualStyleBackColor = true;
+            btnDelete.Click += btnDelete_Click;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(454, 454);
-            Controls.Add(btxdelete);
-            Controls.Add(btxchanges);
-            Controls.Add(insert);
-            Controls.Add(btxread);
-            Controls.Add(btxopenread);
-            Controls.Add(btxkapcsol);
-            Controls.Add(btxdiscon);
+            Controls.Add(btnDelete);
+            Controls.Add(btnUpdate);
+            Controls.Add(btnInsert);
+            Controls.Add(btnRead);
+            Controls.Add(btnOpen);
+            Controls.Add(btnCon);
+            Controls.Add(btnClose);
             Controls.Add(cbxAdmin);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(tbxjel);
-            Controls.Add(tbxnev);
-            Controls.Add(tbxazon);
+            Controls.Add(tbxJelszo);
+            Controls.Add(tbxNev);
+            Controls.Add(tbxID);
             MaximumSize = new Size(470, 493);
             MinimumSize = new Size(470, 493);
             Name = "Form1";
@@ -197,19 +202,19 @@
 
         #endregion
 
-        private TextBox tbxazon;
-        private TextBox tbxnev;
-        private TextBox tbxjel;
+        private TextBox tbxID;
+        private TextBox tbxNev;
+        private TextBox tbxJelszo;
         private Label label1;
         private Label label2;
         private Label label3;
         private CheckBox cbxAdmin;
-        private Button btxdiscon;
-        private Button btxkapcsol;
-        private Button btxopenread;
-        private Button btxread;
-        private Button insert;
-        private Button btxchanges;
-        private Button btxdelete;
+        private Button btnClose;
+        private Button btnCon;
+        private Button btnOpen;
+        private Button btnRead;
+        private Button btnInsert;
+        private Button btnUpdate;
+        private Button btnDelete;
     }
 }
